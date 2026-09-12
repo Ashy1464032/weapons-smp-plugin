@@ -1,0 +1,23 @@
+name: GodWeapons
+description: $description
+version: '${version}'
+
+
+main: me.ashy146.godWeapons.GodWeapons
+api-version: '26.2'
+load: POSTWORLD
+
+authors: [ Ashy146 ]
+website: Ashy146.vercel.app
+
+permissions:
+ godweapons.command.gw:
+  default: op
+  description: "Allows usage of /godweapons Command"
+
+commands:
+ godweapons:
+   description: Gives God Weapons
+   aliases: gw
+   usage: "Usage: /<command> <weapon>"
+   permission: godweapons.command.gw
