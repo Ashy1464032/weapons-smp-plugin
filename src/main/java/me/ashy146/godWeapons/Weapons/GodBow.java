@@ -53,9 +53,8 @@ private static Set<UUID> activeGodBowPlayers = new HashSet<>();
 		
 		metaData.getCustomModelDataComponent().setStrings(List.of("God Bow"));
 		
-		godBow.addUnsafeEnchantment(Enchantment.POWER, 6);
 		
-		
+		metaData.addEnchant(Enchantment.POWER, 6, false);	
 		metaData.getPersistentDataContainer().set(GodWeapons.getWeaponsIDNamespace(), PersistentDataType.STRING, "GodBow");
 		
 		godBow.setItemMeta(metaData);

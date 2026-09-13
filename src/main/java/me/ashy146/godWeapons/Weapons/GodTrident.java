@@ -68,7 +68,7 @@ public class GodTrident {
 				waterspeedKey,
 				3.0,
 				Operation.ADD_SCALAR,
-				EquipmentSlotGroup.MAINHAND
+				EquipmentSlotGroup.ANY
 		);
         AttributeModifier increasedWaterBreathing = new AttributeModifier(
 				waterbreathingKey,

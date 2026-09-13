@@ -89,7 +89,7 @@ public class GodAxe {
 		boolean canSuperCrit = activeGodAxePlayers.contains(player.getUniqueId());
 		
 		if(canSuperCrit && 	PlayerUtils.isCritical(player)) {
-			event.setDamage(event.getDamage() * 1.2);
+			event.setDamage(event.getDamage() * 1.5);
 			if(victim instanceof Player bitch) {
 				bitch.addPotionEffect(PotionEffectType.SLOWNESS.createEffect(200, 255));
 			}

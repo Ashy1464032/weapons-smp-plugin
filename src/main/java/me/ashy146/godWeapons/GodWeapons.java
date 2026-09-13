@@ -55,7 +55,7 @@ public final class GodWeapons extends JavaPlugin {
         		String location = "[" + Math.floor(player.getLocation().getX()) + "," + Math.floor(player.getLocation().getY()) + "," + Math.floor(player.getLocation().getZ()) + "] in " + player.getWorld().getEnvironment().toString();
         		Bukkit.broadcastMessage("§4§lA God weapon user is now at: " + location);
         	}
-        }, 200, 18000);
+        }, 200, 6000);
     }
 
     @Override
